@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href='../public/todo.css'>
+    <title>Todo App</title>
+</head>
+
+<body>
+    <div class="col-md-6 text-center">
+        <h1>Welcome to Our Website</h1>
+        <!-- <p class="lead">This is an TodoApp</p> -->
+    </div>
+
+    <h1>Todo App</h1>
+
+    <form action="/todos" id="addTodoForm">
+        <label for="task">Task:</label>
+        <input type="text" id="task" required>
+        <button type="submit">Add Task</button>
+    </form>
+
+    <ul id="todoList"></ul>
+
+    <form action="/logout" method="post">
+        <button type="submit">Logout</button>
+    </form>
+
+    <script src="../public/script.js"></script>
+</body>
+
+</html>
