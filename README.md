@@ -20,8 +20,11 @@ This project uses JWT for authenticating the users using tokens which are stored
 
 ## Screenshot
    - Register page
+     
 ![Registration Page](images/Register_page.png)
+
    - Todos
+   
 ![Todo App Screenshot](images/Todo_Screenshot.png)
 ## Getting Started
 
