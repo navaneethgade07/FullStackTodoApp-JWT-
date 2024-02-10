@@ -35,15 +35,6 @@ app.use(cookieSession({
     maxAge: 24 * 60 * 60 * 1000 ,
 }));
 
-// To render the public files
-app.get('/public/script.js', (req, res) => {
-    res.setHeader('Content-Type', 'application/javascript');
-});
-
-app.get('/public/todo.css', (req, res) => {
-    res.setHeader('Content-Type', 'text/css');
-});
-
 app.get('/',(req,res)=>{
     res.render('landingpage');
 });
