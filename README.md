@@ -19,7 +19,7 @@ This project uses JWT for authenticating the users using tokens which are stored
 - **Frontend:** HTML , CSS , JavaScript
 
 ## Screenshot
-
+![Registration Page](images/Register_page.png)
 ![Todo App Screenshot](images/Todo_Screenshot.png)
 ## Getting Started
 
