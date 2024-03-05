@@ -1,7 +1,5 @@
 const mongoose  = require('mongoose');
 
-const User = require('./userModel'); // assuming the User model is in a separate file named userModel.js
-
 const todoSchema = new mongoose.Schema({
     task: { 
         type: String,
@@ -11,9 +9,9 @@ const todoSchema = new mongoose.Schema({
         type: Boolean,
         default: false
     },
-    user: {
+    userID: {
         type: mongoose.Schema.Types.ObjectId,
-        ref: 'User'
+        ref: 'newUser'
     }
 });
 
